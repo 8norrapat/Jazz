@@ -19,7 +19,7 @@ body{
   color:var(--muted);
 }
 
-/* NAV (reuse look) */
+
 .navbar{
   display:flex;
   justify-content:center;
@@ -40,7 +40,7 @@ body{
   color:#04112a;
 }
 
-/* Layout */
+
 .quiz-root{
   display:flex;
   flex-direction:column;
@@ -63,7 +63,7 @@ body{
   margin-top:8px;
 }
 
-/* Quiz card */
+
 .quiz-card{
   width:100%;
   max-width:700px;
@@ -86,7 +86,7 @@ body{
   margin-bottom:18px;
 }
 
-/* Answers */
+
 .answers{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -114,7 +114,7 @@ body{
   color:#04112a;
 }
 
-/* Buttons */
+
 .btn-primary{
   margin-top:18px;
   padding:12px 20px;
@@ -136,7 +136,7 @@ body{
 
 .hidden{ display:none }
 
-/* Result */
+
 .quiz-result{
   text-align:center;
 }
