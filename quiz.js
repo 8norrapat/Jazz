@@ -1,120 +1,88 @@
-/* ======================================
-   JAZZ QUIZ — EDIT YOUR OWN QUESTIONS
-   ====================================== */
 
 const quiz = [
   {
-    q: "QUESTION 1 GOES HERE",
+    q: "what jazz artist do you think I love the most",
     a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
+      "Laufey",
+      "Frank Sinatra",
+      "Louis Armstrong",
+      "Yussef Dayes"
     ],
-    correct: 0 // change to 0,1,2,or 3
+    correct: 0 
   },
 
   {
-    q: "QUESTION 2 GOES HERE",
-    a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
-    ],
-    correct: 0
+    q: "What part of jazz do I enjoy the most?",
+    a: [ "Perfect repetition", "Improvisation", "Loud volume", "Short songs" ],
+    correct: 1
   },
 
   {
-    q: "QUESTION 3 GOES HERE",
+    q: "When do I usually listen to jazz?",
     a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
+      "In class ?",
+      "While reading ?",
+      "During the test ?",
+      "All the time"
     ],
-    correct: 0
+    correct: 3
   },
 
   {
-    q: "QUESTION 4 GOES HERE",
-    a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
-    ],
-    correct: 0
+    q: "What is exciting for me when listeing to jazz ?",
+    a: [ "Every song sounds the same", "Each record tells a story", "It is very popular", "It is simple music" ],
+    correct: 2
   },
 
   {
-    q: "QUESTION 5 GOES HERE",
+    q: "What format do I prefer for jazz?",
     a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
+      "Vinyl if I have money to by more",
+      "CD",
+      "Spotify",
+      "Radio"
     ],
-    correct: 0
+    correct: 1
   },
 
   {
-    q: "QUESTION 6 GOES HERE",
+    q: "What does jazz encourage ?",
     a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
+      "strict rules",
+      "improvising",
+      "silence",
+      "All of the above"
     ],
-    correct: 0
+    correct: 3
   },
 
   {
-    q: "QUESTION 7 GOES HERE",
-    a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
-    ],
-    correct: 0
+    q: "How does jazz make me feel?",
+    a: [ "Bored", "Emotionally connected", "Confused", "Angry" ],
+    correct: 1
   },
 
   {
-    q: "QUESTION 8 GOES HERE",
-    a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
-    ],
+    q: "What kind of listening is jazz for me?",
+    a: ["Passive", "Active and focused", "Accidental", "Background noise"],
     correct: 0
+    
   },
 
   {
-    q: "QUESTION 9 GOES HERE",
-    a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
-    ],
-    correct: 0
+    q: "Why do I replay jazz albums?",
+    a: ["They never change", "They reveal new moments", "They are short", "They are loud"],
+    correct: 1
   },
 
   {
-    q: "QUESTION 10 GOES HERE",
-    a: [
-      "Answer A",
-      "Answer B",
-      "Answer C",
-      "Answer D"
-    ],
-    correct: 0
+     q: "Jazz is my hobby because…",
+    a: ["It reminds me of my grandparents ", "It expresses feeling and freedom", "It is emotional", "All of the above"],
+    correct: 3
   }
 ];
 
-/* ========= QUIZ LOGIC (DO NOT EDIT) ========= */
+
 
 let index = 0;
 let score = 0;
