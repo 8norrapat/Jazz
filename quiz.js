@@ -31,7 +31,7 @@ const quiz = [
   {
     q: "What is exciting for me when listeing to jazz ?",
     a: [ "Every song sounds the same", "Each record tells a story", "It is very popular", "It is simple music" ],
-    correct: 2
+    correct: 1
   },
 
   {
